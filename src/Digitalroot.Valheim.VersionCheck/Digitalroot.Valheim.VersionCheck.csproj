@@ -3,22 +3,28 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net462;net472;net48</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Digitalroot.Valheim.VersionCheck</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>ValheimRcon_black.png</PackageIcon>
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/Digitalroot-Valheim/VersionCheck</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
+    <RepositoryType>git</RepositoryType>
     <PackageTags>valheim</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageProjectUrl>https://github.com/Digitalroot-Valheim/VersionCheck</PackageProjectUrl>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile></PackageLicenseFile>
     <Copyright>Copyright © Digitalroot Technologies 2021</Copyright>
     <Authors>Digitalroot</Authors>
     <Company>Digitalroot Technologies</Company>
     <Product>Digitalroot Valheim VersionCheck</Product>
     <Description>Checks GitHub for current active versions.</Description>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed package content</PackageReleaseNotes>
     <ApplicationIcon>ico\ValheimRcon_black.ico</ApplicationIcon>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -31,10 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
     <None Include="ico\ValheimRcon_black.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
